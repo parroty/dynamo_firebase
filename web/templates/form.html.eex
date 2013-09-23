@@ -1,0 +1,27 @@
+<div class="control-group">
+  <label class="control-label" for="weather_city">City</label>
+  <div class="controls">
+    <input class="text_field" id="weather_city" name="weather[city]" size="30" type="text" value="<%= h(@weather.city) %>"/>
+  </div>
+</div>
+
+<div class="control-group">
+  <label class="control-label" for="weather_temp_lo">Temp Lo.</label>
+  <div class="controls">
+    <input class="text_field" id="weather_temp_lo" name="weather[temp_lo]" size="30" type="text" value="<%= h(@weather.temp_lo) %>"/>
+  </div>
+</div>
+
+<div class="control-group">
+  <label class="control-label" for="weather_temp_hi">Temp Hi.</label>
+  <div class="controls">
+    <input class="text_field" id="weather_temp_hi" name="weather[temp_hi]" size="30" type="text" value="<%= h(@weather.temp_hi) %>"/>
+  </div>
+</div>
+
+<div class="control-group">
+  <label class="control-label" for="weather_prcp">Prcp</label>
+  <div class="controls">
+    <input class="text_field" id="weather_prcp" name="weather[prcp]" size="30" type="text" value="<%= h(@weather.prcp) %>"/>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<form action="/<%= @weather.id%>" class="form-horizontal" id="edit_post" method="post">
+  <input type="hidden" name="_method" value="PUT" />
+
+  <fieldset>
+    <legend>Edit Post</legend>
+
+<%= render "form.html", weather: @weather %>
+
+    <br/>
+    <div class="form-actions">
+      <input class="btn btn-primary" name="commit" type="submit" value="Update Weather" />
+      <a href="/" class="btn btn-default">Cancel</a>
+    </div>
+  </fieldset>
+</form>

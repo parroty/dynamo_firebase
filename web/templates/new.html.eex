@@ -1,0 +1,13 @@
+<form action="/" class="form-horizontal" id="new_post" method="post">
+  <fieldset>
+    <legend>New Post</legend>
+
+<%= render "form.html" %>
+
+    <br/>
+    <div class="form-actions">
+      <input class="btn btn-primary" name="commit" type="submit" value="Create Weather" />
+      <a href="/" class="btn btn-default">Cancel</a>
+    </div>
+  </fieldset>
+</form>

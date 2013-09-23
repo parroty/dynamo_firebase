@@ -1,0 +1,31 @@
+<h1>Weather</h1>
+
+<p>
+  <b>Title</b><br>
+  <%= h(@weather.city) %>
+</p>
+
+<p>
+  <b>Temp Lo.</b><br>
+  <%= h(@weather.temp_lo) %>
+</p>
+
+<p>
+  <b>Temp Hi.</b><br>
+  <%= h(@weather.temp_hi) %>
+</p>
+
+<p>
+  <b>Prcp</b><br>
+  <%= h(@weather.prcp) %>
+</p>
+
+<div class="form-actions">
+  <form action="/<%= @weather.id %>" method="post">
+    <a href="/" class="btn btn-default">Back</a>
+    <a href="/<%= @weather.id %>/edit" class="btn btn-default">Edit</a>
+    <input type="hidden" name="_method" value="DELETE" />
+    <input class="btn btn-default btn-danger" name="commit" type="submit" value="Destroy" onclick="return confirm('Are you sure?')" />
+  </form>
+
+</div>
