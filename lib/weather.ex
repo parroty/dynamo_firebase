@@ -16,7 +16,7 @@ defmodule Repo.Weather do
   end
 
   def create(weather) do
-    Dict.Records.post(@location, weather, Weather)
+    Dict.Records.post(@location, weather)
   end
 
   def delete(weather) do
