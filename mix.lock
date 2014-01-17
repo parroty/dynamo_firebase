@@ -1,10 +1,10 @@
 [ "cowboy": {:git, "git://github.com/extend/cowboy.git", "4769412daaff2be53cb7d7391d0a196acb6346c3", []},
-  "cowlib": {:git, "git://github.com/extend/cowlib.git", "2f35af5b0a67f591dde5ae4305a9587988a37c0c", [{:ref, "0.1.0"}]},
-  "dynamo": {:git, "git://github.com/elixir-lang/dynamo.git", "6e92de08f7e20e23264f8a24a2f1b1aeb04f96a3", []},
+  "cowlib": {:git, "git://github.com/extend/cowlib.git", "2f35af5b0a67f591dde5ae4305a9587988a37c0c", [ref: "0.1.0"]},
+  "dynamo": {:git, "git://github.com/elixir-lang/dynamo.git", "d06c2877452d95850108b22dfee7b9a01b8d9ac5", []},
   "exactor": {:git, "git://github.com/sasa1977/exactor.git", "3b7e81b493362d4356d25b1c22c7da8fdc8a0c2c", []},
   "exfirebase": {:git, "git://github.com/parroty/exfirebase.git", "3d3d115c18ef16d49701102690a8b6f7388aac6f", []},
-  "httpotion": {:git, "git://github.com/parroty/httpotion.git", "07d7048981e5c604628ea5e9bf732ef784d7cbdf", [{:branch, "version"}]},
-  "ibrowse": {:git, "git://github.com/cmullaparthi/ibrowse.git", "866b0ff5aca229f1ef53653eabc8ed1720c13cd6", [{:ref, "866b0ff5aca229f1ef53653eabc8ed1720c13cd6"}]},
-  "json": {:git, "git://github.com/parroty/elixir-json.git", "50bba6c836cd12a2f2afc7e3154cc845edd5f5a0", [{:branch, "version"}]},
+  "httpotion": {:git, "git://github.com/parroty/httpotion.git", "07d7048981e5c604628ea5e9bf732ef784d7cbdf", [branch: "version"]},
+  "ibrowse": {:git, "git://github.com/cmullaparthi/ibrowse.git", "866b0ff5aca229f1ef53653eabc8ed1720c13cd6", [ref: "866b0ff5aca229f1ef53653eabc8ed1720c13cd6"]},
+  "json": {:git, "git://github.com/parroty/elixir-json.git", "50bba6c836cd12a2f2afc7e3154cc845edd5f5a0", [branch: "version"]},
   "mimetypes": {:git, "git://github.com/spawngrid/mimetypes.git", "47d37a977a7d633199822bf6b08353007483d00f", []},
-  "ranch": {:git, "git://github.com/extend/ranch.git", "41705752ffc7e3ecb96eef8374015ead4ca7f699", [{:ref, "0.8.5"}]} ]
+  "ranch": {:git, "git://github.com/extend/ranch.git", "41705752ffc7e3ecb96eef8374015ead4ca7f699", [ref: "0.8.5"]} ]
