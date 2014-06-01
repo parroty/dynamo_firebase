@@ -1,5 +1,10 @@
+defmodule Weather do
+  defstruct id: "", city: "", temp_lo: 0, temp_hi: 0, prcp: 0
+end
+
 defmodule Repo.Weather do
   alias ExFirebase.Dict
+  use ExFirebase.Dict.Records
 
   @location "dynamo_firebase"
 
@@ -23,5 +28,3 @@ defmodule Repo.Weather do
     Dict.Records.delete(@location, weather)
   end
 end
-
-defrecord Weather, id: "", city: "", temp_lo: 0, temp_hi: 0, prcp: 0

@@ -11,7 +11,7 @@
     </tr>
   </thead>
   <tbody>
-    <%= lc item inlist @items do %>
+    <%= for item <- @items do %>
       <tr>
         <td><%= h(item.id) %></td>
         <td><a href="/<%= item.id %>"><%= h(item.city) %></a></td>

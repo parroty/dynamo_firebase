@@ -19,10 +19,11 @@ defmodule DynamoFirebase.Mixfile do
 
   defp deps do
     [
-      { :ibrowse, github: "cmullaparthi/ibrowse", ref: "866b0ff5aca229f1ef53653eabc8ed1720c13cd6", override: true},
-      { :cowboy, github: "extend/cowboy" },
-      { :dynamo, "0.1.0-dev", github: "elixir-lang/dynamo"},
-      { :exfirebase, github: "parroty/exfirebase"}
+      {:ibrowse, github: "cmullaparthi/ibrowse", ref: "866b0ff5aca229f1ef53653eabc8ed1720c13cd6", override: true},
+      {:cowboy, github: "extend/cowboy" },
+      {:dynamo, "0.1.0-dev", github: "elixir-lang/dynamo"},
+      {:exfirebase, github: "parroty/exfirebase"},
+      {:jsex, "~> 2.0"}
     ]
   end
 end
